@@ -1,7 +1,17 @@
 
 body{
-    background:#0c0f12;
+    background-color: #0c0f12;
+    color: #818c94;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
 }
-.body.NavBarColor{
+font{
+    color:white;
+}
+.NavBarColor{
     background-color:hsl(220, 27%, 96%)
+}
+.dropDownTaggle::after{
+    content: none;
+
 }
